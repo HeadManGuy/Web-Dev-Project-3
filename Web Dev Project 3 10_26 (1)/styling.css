@@ -1,0 +1,51 @@
+body{
+    background-color:#9dc3e5;
+}
+
+
+.player{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table{
+    border: thick solid black;
+}
+
+td{
+    border: thin solid black;
+    padding: 3px;
+}
+
+th{
+    border: medium solid black;
+    padding: 5px;
+}
+
+button{
+    width:100px;
+    height:50px;
+}
+
+.battle{
+    /*background-color: red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cpuValues{
+    position:absolute;
+    top:10px;
+    right:30px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+#battleLog{
+    font-weight: bold;
+    font-size:24px;
+}

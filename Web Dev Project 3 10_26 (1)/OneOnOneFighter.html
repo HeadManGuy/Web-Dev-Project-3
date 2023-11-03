@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Road Fighter</title>
+    <script src = "engine.js"></script>
+    <link rel = "stylesheet" href = "styling.css" />
+</head>
+<body onload = "initialize();">
+    
+    <div id = "originalPlayerValues" class = "player">
+        <p id = "ogPlayerText"></p>
+    </div>
+    <div id = "cpuValues" class = "player">
+        <p id = "ogEnemyText">Hello world</p>
+    </div>
+    <div class = "battle">
+        <div><img id ="battlefield" src = "battle.webp" width="960px" height="540px"/></div>
+        <div class = "buttons">
+            <button id = "attack" onclick = "chooseMove('attack');">Attack</button>
+            <button id = "defend" onclick = "chooseMove('defend');">Defend</button>
+            <button id = "finisher" onclick = "chooseMove('finish');">Finisher</button>
+            <!-- <button id = "pass" onclick = "chooseMove('pass');">Pass turn</button> -->
+        </div> <br/>
+        <div id = "battleLog"></div>
+    </div>
+    <div>
+        <table id = "movetable">
+            <tr>
+                <th colspan = "1">Player Move Log</th>
+                <th colspan = "1">Computer Move Log</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
